@@ -1,0 +1,71 @@
+{
+  "name": "cefc-tools",
+  "version": "0.0.21",
+  "description": "Tools",
+  "bin": {
+    "tools": "./bin/tools.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://10.199.101.162/CEFC-UTILS/tools.git"
+  },
+  "author": "Kane, Carlton",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^7.1.5",
+    "babel-cli": "~6.26.0",
+    "babel-core": "~6.26.0",
+    "babel-eslint": "~8.0.2",
+    "babel-loader": "~7.1.2",
+    "babel-plugin-react-transform": "^2.0.0",
+    "babel-preset-env": "~1.6.1",
+    "babel-preset-react": "~6.24.1",
+    "babel-preset-stage-0": "~6.24.1",
+    "babel-runtime": "~6.26.0",
+    "browser-sync": "^2.18.13",
+    "chalk": "^1.1.3",
+    "child_process": "^1.0.2",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.11.0",
+    "css-loader": "^0.23.1",
+    "eslint": "~4.11.0",
+    "eslint-config-airbnb": "~16.1.0",
+    "eslint-plugin-import": "~2.8.0",
+    "eslint-plugin-jsx-a11y": "~6.0.2",
+    "eslint-plugin-react": "~7.5.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.5",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-eslint": "~4.0.0",
+    "gulp-less": "^3.3.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-shell": "^0.6.3",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "postcss": "^5.0.18",
+    "postcss-import": "^8.0.2",
+    "postcss-loader": "^0.8.1",
+    "react": "~16.1.1",
+    "react-dom": "~16.1.1",
+    "shelljs": "^0.7.8",
+    "style-loader": "^0.13.1",
+    "through2": "^2.0.3",
+    "webpack": "~3.8.1",
+    "webpack-dev-server": "~2.9.4",
+    "webpack-stream": "~4.0.0"
+  },
+  "browserList": [
+    "Android >= 4",
+    "Chrome >= 35",
+    "Firefox >= 31",
+    "Explorer >= 9",
+    "iOS >= 7",
+    "Opera >= 12",
+    "Safari >= 7.1"
+  ]
+}
