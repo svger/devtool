@@ -1,16 +1,12 @@
 {
-  "name": "cefc-tools",
-  "version": "0.0.21",
+  "name": "svger-tools",
+  "version": "0.0.1",
   "description": "Tools",
   "bin": {
     "tools": "./bin/tools.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "http://10.199.101.162/CEFC-UTILS/tools.git"
   },
   "author": "Kane, Carlton",
   "license": "ISC",
